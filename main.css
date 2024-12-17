@@ -1,0 +1,46 @@
+body {
+    background: url(res/back-fade.svg);
+    background-color: #0000FF;
+    background-position: center;
+    background-size: 400vh;
+    overflow: hidden;
+}
+.player {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: url(res/player.png) center;
+    background-size: cover;
+}
+.ground {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    min-height: 100px;
+    background: url(res/groundSquare_01_001-uhd.png);
+    background-color: #0000FF;
+    background-size: 200px;
+}
+.groundTop {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background: url(res/top1.svg) no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+.level {
+    position: absolute;
+    width: 5%;
+}
+.disp {
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    caret-color: rgba(0, 0, 0, 0);
+    resize: none;
+    cursor: default;
+}
